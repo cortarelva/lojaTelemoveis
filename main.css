@@ -1,0 +1,118 @@
+ * {
+     box-sizing: border-box;
+     
+ }
+body {
+    font-family: 'Lato', sans-serif;
+    background-image: url(imagens/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ .navbar {
+     overflow: hidden;
+     background: linear-gradient(90deg, rgba(0,27,36,1) 0%, rgba(9,9,121,1) 13%, rgba(0,212,255,1) 100%);
+     border-radius: 15px;
+ }
+
+ .icon {
+     float: left;
+     display: block;
+     background: linear-gradient(90deg, rgba(0,27,36,1) 0%, rgba(9,9,121,1) 13%, rgba(0,212,255,1) 100%);
+     border-radius:0 80px;
+     color: gold;
+     text-align: center;
+     font-size: 2em;
+     padding: 12px 16px;
+ }
+
+ .container {
+     float: right;
+     display: block;
+     color: black;
+     text-align: center;
+     padding: 40px;
+ }
+
+ input {
+     background-color: aliceblue;
+     border-radius: 5px;
+ }
+
+ .btn_login {
+     background-color: darkslategray;
+     color: white;
+     width: 100px;
+ }
+
+
+ /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.container-card-group {
+    max-width: 800px;
+    width:100%;
+    display:grid;
+    grid-template-columns: auto auto auto auto ;
+    justify-content: space-evenly;
+    margin: 20px auto;
+}
+ .header {
+     margin-top: 50px;
+     text-align:center;
+     text-transform:uppercase;
+     background: linear-gradient(90deg, rgba(0,27,36,1) 0%, rgba(9,9,121,1) 13%, rgba(0,212,255,1) 100%);
+     color: whitesmoke;
+     border-radius:0 80px;
+ }
+ .card {
+     width: 224px;
+     height:300px;
+     border: 1px solid black;
+     text-align: center;
+     margin: 50px 20px;
+     background-color: aliceblue;
+ }
+.img {
+    width: 222px;
+    object-fit: cover;
+}
+.btn_comprar{
+    width: 80px;
+    background-color: darkslategray;
+    color: gold;
+    
+}
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.table {
+    width:70%;
+    margin:0 auto;
+    text-align: center;
+    background-color:azure;
+}
+.table, td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+tr{
+    background-color: aliceblue;
+}
+/************************************************************************/
+
+.inserir_dados{
+    text-align: center;  
+}
+.inserir_dados input, button{
+    width: 300px;
+    height: 30px;
+    border-radius:5px;
+    border: 1px solid black;
+    box-shadow: none;
+}
+button{
+    background-color: darkslategrey;
+    color:gold;
+    font-weight: 900;
+}
+
+
+
+

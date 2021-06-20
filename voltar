@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main</title>
+    
+    <style>
+        * {box-sizing: border-box;}
+        .navbar{
+           overflow: hidden;
+           background-color:dodgerblue;
+            border-radius: 15px;
+        }
+        
+        .icon{
+           float: left;
+           display: block;
+           color: black;
+           text-align: center;
+           padding: 14px 16px;
+        }
+        
+        .container{
+           float: right;
+           display: block;
+           color: black;
+           text-align: center;
+           padding: 40px ;  
+        }
+        input{
+            background-color:aliceblue;
+            border-radius: 5px;
+        }
+        button{
+            background-color:darkslategray;
+            color:white;
+            border-radius:5px;
+        }
+        
+    </style>
+    
+    
+</head>
+<body>
+    
+    <section class="navbar">
+    <h1 class="icon">LOGIN</h1>
+    <div class="container">
+    <form action="script.php" method="post">
+    <input type="text" placeholder="Enter Username" name="nome">
+    <input type="password" placeholder="Enter Password" name="pass">
+    <button type="submit" name="submeter"><b>Login</b></button>
+    </form>
+    </div>
+    </section>
+    <label name="result"></label>
+    
+</body>
+</html>
